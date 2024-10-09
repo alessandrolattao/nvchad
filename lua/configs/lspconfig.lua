@@ -7,7 +7,7 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "sqls",
+  -- "sqls", fa cagare
   "jsonls",
   "dockerls",
   "docker_compose_language_service",

@@ -54,15 +54,15 @@ return {
     opts = {
       mapping = {
         -- move suggestione with up and down
-        ["<Up>"] = cmp.mapping.select_prev_item(),
-        ["<Down>"] = cmp.mapping.select_next_item(),
+        -- ["<Up>"] = cmp.mapping.select_prev_item(),
+        -- ["<Down>"] = cmp.mapping.select_next_item(),
         -- complete with tab
-        ["<Tab>"] = cmp.mapping.confirm {
-          behavior = cmp.ConfirmBehavior.Insert,
-          select = true,
-        },
+        -- ["<Tab>"] = cmp.mapping.confirm {
+        --   behavior = cmp.ConfirmBehavior.Insert,
+        --   select = true,
+        --},
         -- return does nothing
-        ["<CR>"] = cmp.config.disable,
+        -- ["<CR>"] = cmp.config.disable,
       },
       sources = {
         -- add copilot as source

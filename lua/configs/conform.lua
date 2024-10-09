@@ -1,5 +1,9 @@
 local options = {
   formatters_by_ft = {
+    vue = { "prettier" },
+    javascript = { "prettier" },
+    typescript = { "prettier" },
+    json = { "prettier" },
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
