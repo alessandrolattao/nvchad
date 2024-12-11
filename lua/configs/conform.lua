@@ -3,6 +3,7 @@ local options = {
     vue = { "prettier" },
     javascript = { "prettier" },
     typescript = { "prettier" },
+    sql = { "sql_formatter" },
     json = { "prettier" },
     lua = { "stylua" },
     css = { "prettier" },
